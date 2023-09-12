@@ -337,6 +337,12 @@
  * normalize.css v8.0.1 | MIT License |
  * github.com/necolas/normalize.css
  * -------------------------------------------------------------------- */
+#callButton {
+    background-color: var(--color-btn-primary);
+    color: #fff;
+    height: fit-content;
+}
+
 html {
     line-height              : 1.15;
     -webkit-text-size-adjust : 100%;
@@ -3383,7 +3389,7 @@ img.u-pull-left {
 }
 
 .s-intro__content-title {
-    --text-title-size : 8.8rem;
+    --text-title-size : 7.8rem;
     --text-multiplier : 1;
     font-weight       : 500;
     font-size         : calc(var(--text-title-size) * var(--text-multiplier));
