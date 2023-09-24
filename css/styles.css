@@ -3099,7 +3099,11 @@ img.u-pull-left {
     bottom           : auto;
     left             : auto;
 }
-
+.logo{
+    color: #dbdedd;
+    font-size: 38px;
+    
+}
 .s-header__menu-toggle span::before,
 .s-header__menu-toggle span::after {
     content             : "";
@@ -3310,7 +3314,7 @@ img.u-pull-left {
     bottom              : 0;
     width               : 100%;
     height              : 100%;
-    background-image    : url(../images/mainhero2.jpg);
+    background-image    : url(/images/pexels-fauxels-3183150.jpg);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3394,8 +3398,15 @@ img.u-pull-left {
     font-weight       : 500;
     font-size         : calc(var(--text-title-size) * var(--text-multiplier));
     line-height       : 1.227;
-    color             : white;
+    color             : rgb(255, 255, 255);
     margin-top        : 0;
+}
+#ABOUTPARA{
+    color: #000000;
+}
+.swiper-wrapper{
+    display: flex;
+    justify-content: center;
 }
 
 .s-intro__content-buttons {
