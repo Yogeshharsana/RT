@@ -4695,6 +4695,7 @@ img.u-pull-left {
 }
 
 @media screen and (max-width: 800px) {
+    
     .s-footer {
         padding-bottom : var(--vspace-3);
     }
